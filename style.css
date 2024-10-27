@@ -22,7 +22,7 @@ body{
     position: relative;
     margin-bottom: 20px;
     width: 400px;
-    max-width: 90vw;
+    max-width: 100gvw;
 }
 .progress_container::before{
     content: "";
