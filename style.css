@@ -6,11 +6,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh
+    height: 100vh ;
+    width: 100vw;
+    overflow: hidden;
     
 }
 .container{
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .progress_container{
     display: flex;
@@ -18,7 +22,7 @@ body{
     position: relative;
     margin-bottom: 20px;
     width: 400px;
-    max-width: 100%;
+    max-width: 90vw;
 }
 .progress_container::before{
     content: "";
